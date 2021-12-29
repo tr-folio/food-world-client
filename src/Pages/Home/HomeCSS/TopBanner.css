@@ -1,0 +1,39 @@
+.topbanner-bg-div {
+    max-width: 1920px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url('https://i.ibb.co/wpx3x8N/meal-6876654.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-card-div {
+    height: 220px;
+    margin-top: -140px;
+}
+
+.banner-cards {
+    height: 220px;
+}
+
+#welcome-card {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Media Queries for Medium Devices */
+@media only screen and (max-width: 992px) {
+    .banner-card-div {
+        height: 460px;
+        margin-top: -350px;
+    }
+}
+/* Media Queries for Extral Small Devices */
+@media only screen and (max-width: 576px) {
+    .banner-card-div {
+        height: 360px;
+    }
+    .banner-cards {
+        height: 160px;
+    }
+}
